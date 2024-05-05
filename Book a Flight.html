@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Booking a Seat</title>
+	<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="Book a Flight.css">
+</head>
+<body>
+		<div class="container">
+			<h1>Flight Booking</h1>
+				
+			<form action="" method="post">
+				
+				<div class="form">
+					<label for="depature">Depature City</label>
+					<input type="text" name="depature" id="depature" placeholder="depature city" required>
+				</div>
+				
+
+				<div class="form">
+					<label for="arrival">Arrival City</label></td>
+					<input type="text" name="arrival" id="arrival" placeholder="arrival city" required>
+				</div>
+				
+				<div class="form">
+					<label for="depature_date">Depature Date</label>
+					<input type="date" name="depature_date" id="depature_date" required>
+				</div>
+				
+				<div class="form">
+					<label for="full_name">Full Name</label>
+					<input type="text" name="full_name"  id="full_name" placeholder="fullname" required>
+				</div>
+				
+				<div class="form">
+					<label for="email">Email Id</label>
+					<input type="email" name="email"  id="email" placeholder="email id" required>
+				</div>
+				
+				<div class="form">
+					<label for="phone">Phone</label>
+					<input type="number" name="phone" id="phone" placeholder="phone" required>
+				</div>
+				
+				<div class="form">
+					<label for="nationality">Nationality</label>
+					<input type="text" name="nationality" id="nationality" placeholder="nationality" required>
+				</div>
+				
+				<div class="form">
+					<td><label for="seat">Seat Type</label>
+					<td><select id="seat" name="seat" required>
+						<option value="window">Window</option>
+						<option value="aisle">Aisle</option>
+						<option value="middle">Middle</option>
+					</select>
+				</div>
+				
+				<div class="form">
+					<label for="card_number">Credit Card </label>
+					<input type="text" name="card_number" id="card_number" placeholder="credit card" required>
+				</div>
+			
+				<div class="form">
+					<label for="expiry_date">Expiry Date</label>
+					<input type="text" name="expiry_date" id="expiry_date" required placeholder="MM/YYYY">
+				</div>
+				
+				<div class="form">
+					<label for="CVV">CVV/CVC</label>
+					<input type="text" name="CVV" id="CVV" placeholder="cvv/cvc" required>
+				</div>
+			
+				<div class="form">
+					<input type="checkbox" name="terms" id="terms">
+					<label for="terms">I agree to the terms and conditions</label>
+				</div>
+				
+
+				<button class="btn" type="submit">Confirm Now</button>
+			
+			</form>
+		</div>
+</body>
+</html>
